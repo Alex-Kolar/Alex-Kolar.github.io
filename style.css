@@ -36,6 +36,16 @@
     box-sizing: border-box;
 }
 
+.main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main li {
+    display: inline-block;
+}
+
 .profile-pic {
   border-radius: 50%;
 }
