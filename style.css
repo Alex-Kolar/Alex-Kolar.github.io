@@ -36,6 +36,16 @@
     box-sizing: border-box;
 }
 
+.body {
+    background-color: lightgray;
+    text-align: left;
+    justify-content: center;
+    padding: 20px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .profile-pic {
     border-radius: 50%;
 }
