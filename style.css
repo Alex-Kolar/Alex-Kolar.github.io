@@ -36,16 +36,26 @@
     box-sizing: border-box;
 }
 
-.main ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.main li {
-    display: inline-block;
-}
-
 .profile-pic {
-  border-radius: 50%;
+    border-radius: 50%;
+}
+
+.social-links {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding: 4px;
+}
+
+.social-links a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
